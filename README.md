@@ -14,5 +14,5 @@ Used lottie files for graphics.
 https://user-images.githubusercontent.com/62729978/212180490-de2c0993-0877-4f16-ae74-d2d55f26f34c.mov
 
 # Challenge Summary:
-(https://user-images.githubusercontent.com/62729978/212181455-ab3887ee-07cc-456d-8305-adb7055aa5de.jpg)
+<img width="1217" alt="Screenshot 2023-01-12 at 10 14 47 PM" src="https://user-images.githubusercontent.com/62729978/212181705-f8c7dac1-e782-4268-a3da-a9cdaa426431.png">
 
