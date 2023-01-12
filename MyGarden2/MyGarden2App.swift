@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MyGarden2App: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let _ = UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+            let _ = print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.path)
+            ContentView(selectedItem: .init())
+            
         }
     }
 }

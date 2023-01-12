@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874F8D0F296E135000C85468 /* PlantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F8D0E296E135000C85468 /* PlantList.swift */; };
+		874F8D112970213B00C85468 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 874F8D102970213B00C85468 /* confetti.json */; };
+		874F8D142970232100C85468 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874F8D162970232100C85468 /* Localizable.strings */; };
+		874F8D192970568800C85468 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F8D182970568800C85468 /* timer.swift */; };
 		87682435296C78FA003758A2 /* MyGarden2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682434296C78FA003758A2 /* MyGarden2App.swift */; };
 		87682437296C78FA003758A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682436296C78FA003758A2 /* ContentView.swift */; };
 		87682439296C78FB003758A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87682438296C78FB003758A2 /* Assets.xcassets */; };
@@ -14,6 +18,17 @@
 		87682447296C78FB003758A2 /* MyGarden2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682446296C78FB003758A2 /* MyGarden2Tests.swift */; };
 		87682451296C78FB003758A2 /* MyGarden2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682450296C78FB003758A2 /* MyGarden2UITests.swift */; };
 		87682453296C78FB003758A2 /* MyGarden2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682452296C78FB003758A2 /* MyGarden2UITestsLaunchTests.swift */; };
+		87682460296CDF81003758A2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768245F296CDF81003758A2 /* File.swift */; };
+		8768246A296D8414003758A2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682469296D8414003758A2 /* SwiftUIView.swift */; };
+		8768246E296D85D5003758A2 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768246D296D85D5003758A2 /* LottieView.swift */; };
+		87682471296D8672003758A2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 87682470296D8672003758A2 /* Lottie */; };
+		87682473296D869F003758A2 /* plant 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 87682472296D869F003758A2 /* plant 1.json */; };
+		87682475296D86B5003758A2 /* Comp 1-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 87682474296D86B5003758A2 /* Comp 1-4.json */; };
+		87682477296D86F5003758A2 /* Comp 1-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 87682476296D86F5003758A2 /* Comp 1-6.json */; };
+		8768247A296DA145003758A2 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 87682479296DA145003758A2 /* Realm */; };
+		8768247C296DA145003758A2 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8768247B296DA145003758A2 /* RealmSwift */; };
+		87682481296DB2C4003758A2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682480296DB2C4003758A2 /* ViewModel.swift */; };
+		87682483296DB2F7003758A2 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87682482296DB2F7003758A2 /* Plant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		874F8D0E296E135000C85468 /* PlantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantList.swift; sourceTree = "<group>"; };
+		874F8D102970213B00C85468 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = confetti.json; path = ../../../Downloads/Malak$Reema/Plant/confetti.json; sourceTree = "<group>"; };
+		874F8D152970232100C85468 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		874F8D172970232700C85468 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		874F8D182970568800C85468 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 		87682431296C78FA003758A2 /* MyGarden2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGarden2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87682434296C78FA003758A2 /* MyGarden2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGarden2App.swift; sourceTree = "<group>"; };
 		87682436296C78FA003758A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +65,14 @@
 		8768244C296C78FB003758A2 /* MyGarden2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGarden2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87682450296C78FB003758A2 /* MyGarden2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGarden2UITests.swift; sourceTree = "<group>"; };
 		87682452296C78FB003758A2 /* MyGarden2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGarden2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8768245F296CDF81003758A2 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		87682469296D8414003758A2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8768246D296D85D5003758A2 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		87682472296D869F003758A2 /* plant 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "plant 1.json"; path = "../../../Downloads/plant 1.json"; sourceTree = "<group>"; };
+		87682474296D86B5003758A2 /* Comp 1-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Comp 1-4.json"; path = "../../../Downloads/Comp 1-4.json"; sourceTree = "<group>"; };
+		87682476296D86F5003758A2 /* Comp 1-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Comp 1-6.json"; path = "../../../Downloads/Comp 1-6.json"; sourceTree = "<group>"; };
+		87682480296DB2C4003758A2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		87682482296DB2F7003758A2 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8768247C296DA145003758A2 /* RealmSwift in Frameworks */,
+				8768247A296DA145003758A2 /* Realm in Frameworks */,
+				87682471296D8672003758A2 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		874F8D0D296E132B00C85468 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				874F8D0E296E135000C85468 /* PlantList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		87682428296C78FA003758A2 = {
 			isa = PBXGroup;
 			children = (
+				874F8D162970232100C85468 /* Localizable.strings */,
 				87682433296C78FA003758A2 /* MyGarden2 */,
 				87682445296C78FB003758A2 /* MyGarden2Tests */,
 				8768244F296C78FB003758A2 /* MyGarden2UITests */,
@@ -95,11 +135,22 @@
 		87682433296C78FA003758A2 /* MyGarden2 */ = {
 			isa = PBXGroup;
 			children = (
+				874F8D0D296E132B00C85468 /* Models */,
 				87682434296C78FA003758A2 /* MyGarden2App.swift */,
+				87682482296DB2F7003758A2 /* Plant.swift */,
+				8768246D296D85D5003758A2 /* LottieView.swift */,
 				87682436296C78FA003758A2 /* ContentView.swift */,
+				87682469296D8414003758A2 /* SwiftUIView.swift */,
+				874F8D102970213B00C85468 /* confetti.json */,
+				87682472296D869F003758A2 /* plant 1.json */,
+				87682476296D86F5003758A2 /* Comp 1-6.json */,
+				87682474296D86B5003758A2 /* Comp 1-4.json */,
 				87682438296C78FB003758A2 /* Assets.xcassets */,
 				8768243A296C78FB003758A2 /* MyGarden2.entitlements */,
 				8768243B296C78FB003758A2 /* Preview Content */,
+				8768245F296CDF81003758A2 /* File.swift */,
+				87682480296DB2C4003758A2 /* ViewModel.swift */,
+				874F8D182970568800C85468 /* timer.swift */,
 			);
 			path = MyGarden2;
 			sourceTree = "<group>";
@@ -145,6 +196,11 @@
 			dependencies = (
 			);
 			name = MyGarden2;
+			packageProductDependencies = (
+				87682470296D8672003758A2 /* Lottie */,
+				87682479296DA145003758A2 /* Realm */,
+				8768247B296DA145003758A2 /* RealmSwift */,
+			);
 			productName = MyGarden2;
 			productReference = 87682431296C78FA003758A2 /* MyGarden2.app */;
 			productType = "com.apple.product-type.application";
@@ -208,15 +264,20 @@
 					};
 				};
 			};
-			buildConfigurationList = 8768242C296C78FA003758A2 /* Build configuration list for PBXProject "MyGarden2" */;
+			buildConfigurationList = 8768242C296C78FA003758A2 /* Build configuration list for PBXProject "MyGarden" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 87682428296C78FA003758A2;
+			packageReferences = (
+				8768246F296D8672003758A2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				87682478296DA145003758A2 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 87682432296C78FA003758A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8768243D296C78FB003758A2 /* Preview Assets.xcassets in Resources */,
+				874F8D112970213B00C85468 /* confetti.json in Resources */,
+				87682473296D869F003758A2 /* plant 1.json in Resources */,
+				874F8D142970232100C85468 /* Localizable.strings in Resources */,
+				87682477296D86F5003758A2 /* Comp 1-6.json in Resources */,
+				87682475296D86B5003758A2 /* Comp 1-4.json in Resources */,
 				87682439296C78FB003758A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				87682437296C78FA003758A2 /* ContentView.swift in Sources */,
+				87682460296CDF81003758A2 /* File.swift in Sources */,
+				8768246E296D85D5003758A2 /* LottieView.swift in Sources */,
+				8768246A296D8414003758A2 /* SwiftUIView.swift in Sources */,
+				87682483296DB2F7003758A2 /* Plant.swift in Sources */,
+				874F8D0F296E135000C85468 /* PlantList.swift in Sources */,
+				874F8D192970568800C85468 /* timer.swift in Sources */,
+				87682481296DB2C4003758A2 /* ViewModel.swift in Sources */,
 				87682435296C78FA003758A2 /* MyGarden2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +368,18 @@
 			targetProxy = 8768244D296C78FB003758A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874F8D162970232100C85468 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874F8D152970232100C85468 /* en */,
+				874F8D172970232700C85468 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		87682454296C78FB003758A2 /* Debug */ = {
@@ -575,7 +660,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8768242C296C78FA003758A2 /* Build configuration list for PBXProject "MyGarden2" */ = {
+		8768242C296C78FA003758A2 /* Build configuration list for PBXProject "MyGarden" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87682454296C78FB003758A2 /* Debug */,
@@ -612,6 +697,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8768246F296D8672003758A2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+		87682478296DA145003758A2 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87682470296D8672003758A2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8768246F296D8672003758A2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		87682479296DA145003758A2 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87682478296DA145003758A2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		8768247B296DA145003758A2 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87682478296DA145003758A2 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87682429296C78FA003758A2 /* Project object */;
 }

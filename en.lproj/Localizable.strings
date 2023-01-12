@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  MyGarden2
+
+  Created by Reema Alhabdan on 12/01/2023.
+  
+*/
+"Name of Plant" = "Name of Plant";
+"My Garden" = "My Garden";
+"Enter Your Plant's Name:" = "Enter Your Plant's Name:";
+"Choose Your Plant:" = "Choose Your Plant:";
+"Choose Your Watering Schedule:" = "Choose Your Watering Schedule:";
+"Choose Your Watering Day:" = "Choose Your Watering Day:";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thurusday" = "Thurusday";
+"Friday" = "Friday";
+"Add Plant" = "Add Plant";
+
+
+
+//Try
+"Regular" = "Regular plants like rubber plant, and philodendron. These plants have moderate watering(we recomend to be watered about once a week or every other week), fertilizing, and repotting needs.";
+
+
+"Cactus" = "Cactus and succulents. These plants have relatively low watering(we recomend to be watered infrequently), fertilizing, and repotting needs, usually only once a week or less.";
+
+"Flowers" = "Flowers like orchids and lily. These plants have high watering( need to be watered frequently, we recommend about once a week or more), fertilizing, and repotting needs.";
+
+"Low-water plants, every 2 weeks" = "Low-water plants, every 2 weeks";
+"High-water plants, every week" = "High-water plants, every week";
